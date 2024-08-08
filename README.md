@@ -38,7 +38,7 @@ We welcome contributions from the community! Please refer to the [CONTRIBUTING.m
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE.txt) file for more details.
 
 ## Contact
 
