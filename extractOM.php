@@ -77,6 +77,6 @@ foreach ($directories as $directory) {
 
 
 // Sauvegarder les clés dans un fichier fr.json
-file_put_contents(base_path('resources/lang/fr.json'), json_encode($allKeys, JSON_PRETTY_PRINT));
+file_put_contents(base_path('resources/lang/en.json'), json_encode($allKeys, JSON_PRETTY_PRINT));
 
-echo "Clés de traduction extraites et sauvegardées dans resources/lang/fr.json\n";
+echo "Clés de traduction extraites et sauvegardées dans resources/lang/en.json\n";
