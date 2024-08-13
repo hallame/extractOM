@@ -41,7 +41,7 @@ function extractTranslationKeys($directory)
             $content = file_get_contents($file->getRealPath());
             echo "Processing file: " . $file->getRealPath() . "\n";
 
-            // Regex pour capturer __() et @lang()
+            // Regex to capture __() and @lang()
             preg_match_all("/__\(['\"](.+?)['\"]\)|@lang\(['\"](.+?)['\"]\)/", $content, $matches);
 
             if ($matches) {
@@ -76,7 +76,7 @@ foreach ($directories as $directory) {
 }
 
 
-// Sauvegarder les clés dans un fichier fr.json
+// Save the keys in a en.json file
 file_put_contents(base_path('resources/lang/en.json'), json_encode($allKeys, JSON_PRETTY_PRINT));
 
-echo "Clés de traduction extraites et sauvegardées dans resources/lang/en.json\n";
+echo "Extracted and saved translation keys in resources/lang/en.json\n";
